@@ -25,4 +25,4 @@ jobs:
         run: npm test
 
       - name: "Deploy Application"
-        run: pm2 restart src/index.js
+        run: pm2 start src/index.js
