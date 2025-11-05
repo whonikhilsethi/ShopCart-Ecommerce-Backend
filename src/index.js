@@ -24,7 +24,7 @@ app.use(bodyParser.urlencoded({extended: true}));
 
 app.use('/api', ApiRouter); 
 app.get('/ping', (req, res)=> {
-    res.send('pong');
+    res.send('HELLO,NIKHIL SETHI');
 })
 // if any req comes with url starting with /api
 
